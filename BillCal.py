@@ -24,7 +24,11 @@ sscl = bill * 0.025
 total_bill = bill + sscl
 
 # Output Feature
+print("\n----- Electricity Bill Summary -----")
 print("Consumer Type:", client_type)
-print("Electricity Units:", units)
-print("Total Bill: Rs.", bill)
+print("Units Consumed:", units)
+print("Base Bill: Rs.", bill)
+print("SSCL Tax (2.5%): Rs.", sscl)
+print("Final Bill: Rs.", total_bill)
+print("-----------------------------------")
 
